@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container
+{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 27px;
+    margin:40px 0;
+}
+.bulb{
+    height: 40%;
+    width: 40%;
+    margin: 5%;
+    /* border: 5px black solid; */
+    border-radius: 1000px;
+    background-color: gray;
+    margin-bottom:80px;
+    display: center;
+}
+button{
+    height: 50px;
+    width: 120px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    border: 4px black solid;
+    border-radius: 15px;
+}
